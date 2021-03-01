@@ -1,0 +1,85 @@
+/**
+ * Info Card
+ * =================================
+ * - These are the little cards on the homepage that show the date and time and location of the event.
+ *
+ *
+ *
+ *
+ *
+ */
+
+.card-pull {
+  margin-top: -20px;
+}
+
+.info-card {
+  background-color: $red;
+  color: white;
+  border-radius: 10px;
+  font-size: .8em;
+  margin-top: 20px;
+
+  i {
+    font-size: 2em;
+    border-right: solid white 5px;
+    vertical-align: middle;
+    position: relative;
+    padding: 15px 10px 20px 0;
+    height: 100%;
+  }
+
+  p {
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-content {
+    color: white;
+    margin: 0;
+    padding: 20px 0 5px 0;
+  }
+}
+
+//ofc the icons wouldn't be the same size so i have to manually fix the padding to make them line up
+#big-icon {
+  padding: 15px 6px 20px 0;
+}
+
+.info-card-long {
+  background-color: $red;
+  color: white;
+  border-radius: 10px;
+  font-size: .8em;
+  margin-top: 20px;
+
+
+  i {
+    font-size: 2em;
+    border-right: solid white 5px;
+    vertical-align: middle;
+    position: relative;
+    padding: 15px 10px 10px 0;
+    height: 100%;
+  }
+
+  p {
+    color: white;
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-content {
+    color: white;
+    margin: 0;
+    padding: 10px 0 10px 0;
+  }
+}
+
+@media screen and (min-width: 40em) {
+  .info-card, .info-card-long {
+    margin-top: -30px;
+    margin-bottom: 30px;
+  }
+}

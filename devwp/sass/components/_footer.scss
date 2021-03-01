@@ -1,0 +1,75 @@
+/**
+ * FOOTER
+ * =================================
+ * The hope is to use this and edit as necessary because editing footers suck, albeit less than headers.
+ *
+ *
+ */
+
+
+//*********************************************
+//***************** FOOTER ********************
+//*********************************************
+.social-links ul {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.social-icons .fa {
+  font-size: 1.8em;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+}
+
+.social-icons .fa {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #FFF;
+  color: rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 1px 1px 3px #333;
+}
+
+.social-icons.icon-circle .fa{
+  border-radius: 50%;
+}
+
+.social-icons.icon-rounded .fa{
+  border-radius:5px;
+}
+
+.social-icons.icon-flat .fa{
+  border-radius: 0;
+}
+
+
+.social-icons .fa-facebook, .social-icons .fa-instagram, .social-icons .fa-twitter {
+  background-color: black;
+  color: white;
+}
+
+
+.footer-text {
+  padding-bottom: 20px;
+}
+
+.footer-links {
+  width: 30%;
+}
+
+#menu-footer-column-1 li{
+  text-align: center;
+  margin: 0 auto;
+}
+
+#menu-footer-column-1 a {
+  color: white;
+}
+
