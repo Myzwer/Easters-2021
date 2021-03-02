@@ -36,8 +36,8 @@ get_header(); ?>
     <div class="show-for-mobile">
         <div class="grid-container full-width">
             <div class="grid-x grid-padding-x full-background" style = "background: linear-gradient(
-                    rgba(255, 255, 255, .45),
-                    rgba(255, 255, 255, .45)
+                    rgba(0, 0, 0, .45),
+                    rgba(0, 0, 0, .45)
                     ),url(<?php the_field('photo_background'); ?>);
                     background-position: center center;
                     background-repeat: no-repeat;
