@@ -2,12 +2,12 @@
 /**
  * Template Name: Front Page
  *
- * The Frontpage of the Christmas Time Theme
+ * The Frontpage of the Easters Time Theme
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package WordPress
- * @subpackage Yestau
+ * @subpackage Easters Theme
  * @since 1.0.0
  */
 
