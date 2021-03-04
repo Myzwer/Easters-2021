@@ -144,7 +144,7 @@ get_header(); ?>
                 <img src=<?php the_field('card_2_photo'); ?>"
                      alt="">
                 <div class="main-background big-card-contents card-height">
-                    <h3><?php the_field('card_1_header'); ?></h3>
+                    <h3><?php the_field('card_2_header'); ?></h3>
                     <p class="left margin-bottom"><?php the_field('card_2_body'); ?></p>
                 </div>
             </div>
@@ -154,7 +154,7 @@ get_header(); ?>
                 <img src="<?php the_field('card_3_photo'); ?>"
                      alt="">
                 <div class="main-background big-card-contents card-height">
-                    <h3><?php the_field('card_1_header'); ?></h3>
+                    <h3><?php the_field('card_3_header'); ?></h3>
                     <p class="left margin-bottom"><?php the_field('card_3_body'); ?></p>
                 </div>
             </div>
