@@ -125,14 +125,11 @@ get_header(); ?>
             </div>
 
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
-                <img src="http://easters-2021.local/wp-content/uploads/2021/03/Mao-to-Easters.jpg"
+                <img src="<?php the_field('card_1_photo'); ?>"
                      alt="">
                 <div class="main-background big-card-contents card-height">
-                    <h3>Directions</h3>
-                    <p class="left margin-bottom">William Blount High School is at 219 County Farm Rd, Maryville, TN
-                        37801. When you arrive, our parking team will help you find the best place to go, and you
-                        can
-                        walk from there right up to the main gates of the football stadium. </p>
+                    <h3><?php the_field('card_1_header'); ?></h3>
+                    <p class="left margin-bottom"><?php the_field('card_1_body'); ?></p>
                     <?php if (have_rows('button_1')): ?>
                         <?php while (have_rows('button_1')): the_row(); ?>
                             <a href="<?php the_sub_field('button_link'); ?>">
@@ -144,26 +141,21 @@ get_header(); ?>
             </div>
 
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
-                <img src="http://easters-2021.local/wp-content/uploads/2021/03/Covid-Policy-copy.jpg"
+                <img src=<?php the_field('card_2_photo'); ?>"
                      alt="">
                 <div class="main-background big-card-contents card-height">
-                    <h3>Covid</h3>
-                    <p class="left margin-bottom">If you haven't been back to church in person yet due to COVID-19,
-                        then this is the perfect time to do it! We'll be meeting outside, there will be plenty of
-                        space for social distancing, and masks are completely optional as well, so you can take as
-                        many precautions as you need to come and worship with your family. </p>
+                    <h3><?php the_field('card_1_header'); ?></h3>
+                    <p class="left margin-bottom"><?php the_field('card_2_body'); ?></p>
                 </div>
             </div>
 
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
 
-                <img src="http://easters-2021.local/wp-content/uploads/2021/03/FC-Kids-Easters.jpg"
+                <img src="<?php the_field('card_3_photo'); ?>"
                      alt="">
                 <div class="main-background big-card-contents card-height">
-                    <h3>FC Kids</h3>
-                    <p class="left margin-bottom">We encourage that you bring your kids with you to our Easter
-                        worship experience. When you walk in, you can stop by the FC Kids tent to get a handout for
-                        your children to use during the service. </p>
+                    <h3><?php the_field('card_1_header'); ?></h3>
+                    <p class="left margin-bottom"><?php the_field('card_3_body'); ?></p>
                 </div>
             </div>
         </div>
