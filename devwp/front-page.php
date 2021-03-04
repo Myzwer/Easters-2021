@@ -13,11 +13,6 @@
 
 get_header(); ?>
 
-    <!--Header
-        Event Details / Intro Paragrah
-        Online Service
-        FAQ -->
-
     <div class="show-for-desktop">
         <video class="" src="<?php the_field('video'); ?>" autoplay loop
                playsinline muted></video>
@@ -111,7 +106,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-6 large-4 small-padding center">
-                    <img class="box-shadow" src="<?php the_field('filler_photo'); ?>" alt="Promotional Stock Photo">
+                    <img class="box-shadow rounded-corners" src="<?php the_field('filler_photo'); ?>" alt="Promotional Stock Photo">
                 </div>
             </div>
         </div>
@@ -170,7 +165,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-6 large-4 small-padding center">
-                    <img class="box-shadow" src="<?php the_field('filler_photo_2'); ?>"
+                    <img class="box-shadow rounded-corners" src="<?php the_field('filler_photo_2'); ?>"
                          alt="A Foothills Christmas Brand Photo">
                 </div>
 
