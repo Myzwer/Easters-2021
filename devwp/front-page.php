@@ -158,8 +158,8 @@ get_header(); ?>
 
 
     <div class="full-width main-background padding-bottom">
-        <div class="add-medium-padding">
-            <div class="grid-x grid-padding-x grid-margin-x">
+        <div class="">
+            <div class="grid-x grid-padding-x ">
                 <div class="small-12 center cell">
                     <h1 class="light-color-invert add-padding"><?php the_field('section_title_4'); ?></h1>
                 </div>
