@@ -42,7 +42,7 @@ get_header(); ?>
                     <div class="content-middle width-large">
                         <div class="viewport-header">
                             <div class="head-container">
-                                <div class="logo"><img src="<?php the_field('logo'); ?>">
+                                <div class="logo"><img src="<?php the_field('logo'); ?>" alt = "Easter 2021 Logo Branding">
                                 </div>
                             </div>
                         </div>
@@ -106,7 +106,7 @@ get_header(); ?>
                 </div>
 
                 <div class="small-12 medium-6 large-4 small-padding center">
-                    <img class="box-shadow rounded-corners" src="<?php the_field('filler_photo'); ?>" alt="Promotional Stock Photo">
+                    <img class="box-shadow rounded-corners" src="<?php the_field('filler_photo'); ?>" alt="Easter 2021 Branding Square">
                 </div>
             </div>
         </div>
@@ -121,7 +121,7 @@ get_header(); ?>
 
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
                 <img src="<?php the_field('card_1_photo'); ?>"
-                     alt="">
+                     alt="Section Header Photo">
                 <div class="main-background big-card-contents card-height">
                     <h3><?php the_field('card_1_header'); ?></h3>
                     <p class="left margin-bottom"><?php the_field('card_1_body'); ?></p>
@@ -136,8 +136,8 @@ get_header(); ?>
             </div>
 
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
-                <img src=<?php the_field('card_2_photo'); ?>"
-                     alt="">
+                <img src="<?php the_field('card_2_photo'); ?>"
+                     alt="Section Header Photo">
                 <div class="main-background big-card-contents card-height">
                     <h3><?php the_field('card_2_header'); ?></h3>
                     <p class="left margin-bottom"><?php the_field('card_2_body'); ?></p>
@@ -147,7 +147,7 @@ get_header(); ?>
             <div class="small-12 medium-6 large-4 padding-top padding-bottom cell big-card">
 
                 <img src="<?php the_field('card_3_photo'); ?>"
-                     alt="">
+                     alt="Section Header Photo">
                 <div class="main-background big-card-contents card-height">
                     <h3><?php the_field('card_3_header'); ?></h3>
                     <p class="left margin-bottom"><?php the_field('card_3_body'); ?></p>
@@ -166,7 +166,7 @@ get_header(); ?>
 
                 <div class="small-12 medium-6 large-4 small-padding center">
                     <img class="box-shadow rounded-corners" src="<?php the_field('filler_photo_2'); ?>"
-                         alt="A Foothills Christmas Brand Photo">
+                         alt="Football Field Stock Photo">
                 </div>
 
                 <div class="small-12 medium-6 large-8 cell">
