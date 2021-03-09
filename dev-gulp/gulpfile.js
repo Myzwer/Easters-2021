@@ -93,7 +93,7 @@ function javascript() {
 function watch() {
     browserSync.init({
         open:'external',
-        proxy: 'easters-2021.local', //switch this to whatever local generates
+        proxy: 'https://easters-2021.local', //switch this to whatever local generates
         port: 3000
     });
 
